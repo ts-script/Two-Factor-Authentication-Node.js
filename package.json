@@ -1,0 +1,48 @@
+{
+  "name": "two-factor-authentication-node",
+  "version": "1.0.0",
+  "description": "Two factor authentication in a Node.js powered API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run tsc & npm run nodemon",
+    "nodemon": "nodemon dist",
+    "tsc": "tsc -w",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ts-script/Two-Factor-Authentication-Node.js.git"
+  },
+  "keywords": [
+    "WebAPI",
+    "Two-Factor-Authentication",
+    "Nodejs",
+    "Express",
+    "Typescript",
+    "Decorators"
+  ],
+  "author": "Tom Schalbar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ts-script/Two-Factor-Authentication-Node.js/issues"
+  },
+  "homepage": "https://github.com/ts-script/Two-Factor-Authentication-Node.js#readme",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "jsonwebtoken": "8.2.0"
+  },
+  "devDependencies": {
+    "@decorators/express": "2.2.2",
+    "@types/bcryptjs": "2.4.1",
+    "@types/body-parser": "1.16.8",
+    "@types/express": "4.11.1",
+    "@types/jsonwebtoken": "7.2.5",
+    "@types/node": "9.4.7",
+    "nodemon": "1.17.1",
+    "typescript": "2.7.2"
+  }
+}
